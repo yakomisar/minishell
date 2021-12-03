@@ -23,7 +23,7 @@ int	build_cd(const char *str)
 
 int main(int argc, char **argv, char **env)
 {
-	printf("Hello Minishell! \n");
+	printf("Hello Minishell!\n");
 
 	return (0);
 }
