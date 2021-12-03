@@ -12,7 +12,18 @@
 
 #include "../minishell.h"
 
-int main()
+int	build_cd(const char *str)
+{
+	if (chdir(str) == 0)
+	{
+		return (0);
+	}
+	return (-1);
+}
+
+int main(int argc, char **argv, char **env)
 {
 	printf("Hello Minishell!\n");
+
+	return (0);
 }
