@@ -6,7 +6,7 @@
 /*   By: mrudge <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 20:32:09 by mrudge            #+#    #+#             */
-/*   Updated: 2021/12/02 20:33:12 by mrudge           ###   ########.fr       */
+/*   Updated: 2021/12/03 17:02:34 by mrudge           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	build_cd(const char *str)
 
 int main(int argc, char **argv, char **env)
 {
-	printf("Hello Minishell!\n");
+	printf("Hello Minishell! \n");
 
 	return (0);
 }
